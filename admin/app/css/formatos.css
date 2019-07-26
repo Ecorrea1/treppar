@@ -1,0 +1,295 @@
+/*###############################################*/
+.titulo1 {
+    font: bold 16px Arial;
+    color:#ffffff;
+    background-color:#045FB4;
+    border-width:0px;
+    height: 35px;
+    
+    /*para centrar vertical texto dentro del div*/
+    display: flex;
+    
+    /*horizontal*/
+    justify-content: center;
+    
+    /*vertical*/
+    align-items: center;
+}
+
+.titulo_cmb {
+    font: 12px Arial;
+    color:#ffffff;
+    background-color:#045FB4;
+    border-width:0px;
+}
+
+.panel1{
+    font:bold 12px Arial;
+    color:#045FB4; /*azul*/
+    background-color:#E6E6E6;
+    border-color:#E6E6E6;
+    border-width:1px;
+    border-style:solid;
+    box-shadow: 1px 1px 3px #000000;
+}
+
+.login_usu{
+    font: bold 16px Arial;
+    color:#045FB4;
+    text-shadow: #fff 2px +0px 2px;
+}
+
+.etq1 {
+    font:bold 12px Arial;
+    color:#045FB4; /*azul*/
+}
+
+.etq2 {
+    font:bold 12px Arial;
+    color:#000000; /*azul*/
+}
+
+.etq3 { 
+    font: 12px Arial; 
+    color:#333; /*gris comentario*/
+}
+
+.txt1 { /*obligatorio*/
+    font:12px Arial;
+    color:#000000;
+    background-color:#F4F788;    
+    border:1px solid #A4A4A4;
+    text-align: center;
+}
+
+.txt2 { /*opcional - blanco*/
+    font:12px Arial;
+    color:#000000;
+    background-color:#fff;
+    border:1px solid #A4A4A4;
+    text-align: center;
+}
+
+.txt3 { /*no editable - gris*/
+    font:12px Arial;
+    color: #000000;
+    background-color:#D8D8D8;
+    border-color:#A4A4A4;
+    border:1px solid #A4A4A4;
+    text-align: center;
+}
+
+.msn_err {
+    font:bold 12px Arial;
+    color: #DF0101;/*rojo*/
+}
+
+/*#BOTONES########################################*/
+.bt_grabar{
+    background-image: url(../img/bt_grabar.png);
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+    border-width: 1px;
+    border-color: #FAFAFA;
+    -webkit-border-radius: 3px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.bt_eliminar{
+    background-image: url(../img/bt_eliminar.png);
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+    border-width: 1px;
+    border-color: #FAFAFA;
+    background-color: #D8D8D8;
+   -webkit-border-radius: 3px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.bt_buscar{
+    background-image: url(../img/bt_buscar.png);
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+    border-width:1px;
+    border-color: #FAFAFA;
+    background-color: #D8D8D8;
+    -webkit-border-radius: 3px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.bt_exportar{
+    background-image: url(../img/bt_exportar.png);
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+    border-width: 1px;
+    border-color: #FAFAFA;
+    background-color: #D8D8D8;
+    -webkit-border-radius: 3px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.bt_limpiar{
+    background-image: url(../img/bt_limpiar.png);
+    background-repeat:no-repeat;
+    width: 27px;
+    height: 27px;
+    border-width: 1px;
+    border-color: #FAFAFA;
+    background-color: #D8D8D8;
+    -webkit-border-radius: 3px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.bt_upload{
+    background-image: url(../img/bt_upload.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    border-width: 1px;
+    border-color: #FAFAFA;
+    background-color:#D8D8D8;
+    -webkit-border-radius: 3px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.bt_volver{
+    font: bold 18px Arial;
+    color: #333;
+    background-color:#FACC2E;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.icono_horario{
+    font: bold 15px Arial;
+    color: #000000;   
+    text-shadow: #ffffff 3px 3px 3px;
+    background-image: url(../img/icono_horario.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #848484;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+}
+
+.icono_foto{
+    font: bold 15px Arial;
+    color: #000000;
+    text-shadow: #ffffff 3px 3px 3px;
+    background-image: url(../img/icono_foto.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #848484;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+}
+
+.icono_ver_detalle{
+    font: bold 15px Arial;
+    color: #333;
+    background-color: #99cc99;  
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #848484;
+    
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    
+    background-position: 50% 50%;
+}
+
+.icono_habitacion{
+    font: bold 15px Arial;
+    color: #333;
+    background-color: #99cc99;  
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #848484;
+    padding-left: 3px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;    
+    
+    background-color: transparent;
+    background-image: url(../img/icono_habitacion.png);    
+    background-repeat: no-repeat;
+    background-position: 50% 50%;    
+}
+
+
+/*#FIN BOTONES####################################*/
+
+/*#TABLA##########################################*/
+.tabla_head {
+    background-color: #045FB4;
+    font: 11px Arial;
+	color: #FFFFFF;
+	border: 0px solid #F2F2F2;
+	/*text-align: left;*/
+    padding:1px;
+    height: 30px;
+}
+
+    .tabla_datos1 {
+    	background-color: #CEE3F6;
+        font: 11px Arial;
+    	color: #2E2E2E;
+    	border: 0px solid #F2F2F2;    
+        padding:1px;
+        height: 30px;
+    }
+    
+    .tabla_datos1:hover {
+    	background-color: #99cc99;
+        font: 11px Arial;
+    	color: #333;
+    	border: 0px solid #F2F2F2;         
+        padding:0px;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    /*///////////////////////////////////////////////*/
+    .tabla_datos2 {
+    	background-color: #FAFAFA;
+        font: 11px Arial;
+    	color: #2E2E2E;
+    	border: 0px solid #F2F2F2;
+        padding:1px;
+        height: 30px;
+    }
+    
+    .tabla_datos2:hover {
+    	background-color: #99cc99;
+        font: 11px Arial;
+    	color: #333;
+    	border: 0px solid #F2F2F2;       
+        padding:0px;
+        height: 30px;
+        cursor: pointer;
+    }
+    /*
+    .tabla_datos_over {
+    	background-color: #99cc99;
+        font: 11px Arial;
+    	color: #333;
+    	border: 0px solid #F2F2F2;    
+        padding:0px;
+        height: 24px;
+        cursor: pointer;
+    }
+    */
+/*#FIN TABLA######################################*/

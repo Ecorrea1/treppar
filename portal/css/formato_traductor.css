@@ -1,0 +1,11 @@
+.traductor{
+    background-color:#333;
+    width: 100%;
+    height:60px;
+    margin-left :auto;
+    margin-right:auto;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
